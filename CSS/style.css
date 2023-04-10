@@ -1,0 +1,141 @@
+/* Start Of NavBar PART  */
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #009ad8;
+  border: 0.13rem solid #009ad8;
+  border-radius: 30px;
+}
+
+.nav-item {
+  transition: all 1s;
+}
+
+.nav-item a {
+  border: 0.13rem solid rgb(0, 154, 216, 0);
+  border-radius: 30px;
+}
+.nav-item a:hover {
+  color: #009ad8;
+  border: 0.13rem solid rgb(0, 154, 216);
+}
+
+/* End Of NavBar PART  */
+/* Start Of Header SECTION  */
+#header {
+  background-image: url(../images/banner.png);
+  background-repeat: space;
+  padding: 2.6rem 0;
+}
+
+/* End Of Header SECTION  */
+/* Start Of Form SECTION  */
+.form-group input {
+  background-color: #1e202b;
+  border: 0;
+  color: #bfc1c8;
+}
+
+.form-group input:focus {
+  background-color: #1e202b;
+  color: white;
+}
+
+#message::placeholder,
+.form-group input::placeholder {
+  color: #bfc1c8;
+}
+
+#message {
+  background-color: #1e202b;
+  resize: none;
+}
+
+/* End Of Form SECTION  */
+/* Start Of Footer PART  */
+#webSiteFooter {
+  background-color: #1e202b;
+}
+
+#webSiteFooter {
+  background-color: #262936;
+}
+
+#webSitefooter a {
+  color: #009ad8;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #1e202b;
+  border-radius: 3rem;
+  color: #009ad8;
+  cursor: pointer;
+}
+
+.social-icons:hover {
+  background-color: #009ad8;
+}
+
+.social-icons:hover a {
+  color: white;
+}
+
+/* End Of Footer PART  */
+/* Start Of contact !SECTION  */
+.pages {
+  height: 3rem;
+  background-color: #262936;
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+}
+
+.pages a {
+  color: #bfc1c8;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.pages a:hover {
+  text-decoration: underline;
+}
+
+/* Shared Site */
+body {
+  background-color: #1e202b;
+  color: #bfc1c8;
+}
+
+.fs-10 {
+  font-size: 0.7rem;
+}
+
+sub {
+  top: -0.5em;
+}
+
+.bg-gray {
+  background-color: #323544;
+}
+
+.bg-darkGray {
+  background-color: #262936;
+}
+
+.bg-op-gray {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-over {
+  right: 1.5%;
+  top: 38%;
+  transform: translateY(-50%);
+}
+
+.h-222 {
+  height: 220px;
+}
