@@ -40,6 +40,13 @@
   color: white;
 }
 
+.btn-find {
+  position: absolute;
+  right: 0.8%;
+  top: 48%;
+  transform: translateY(-50%);
+}
+
 #message::placeholder,
 .form-group input::placeholder {
   color: #bfc1c8;
@@ -131,7 +138,7 @@ sub {
 }
 
 .btn-over {
-  right: 1.5%;
+  right: 1%;
   top: 38%;
   transform: translateY(-50%);
 }

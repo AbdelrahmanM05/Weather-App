@@ -5,31 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/all.min.css">
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Weather</title>
 </head>
 
 <body>
     <!-- START OF  NAVBAr PART -->
-    <nav class="navbar navbar-dark navbar-expand-lg py-5">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <div class="logo d-flex">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container py-5">
+    <a class="navbar-brand" href="#home">
+                        <div class="logo d-flex">
                     <img src="./images/logo.png" class="me-3 h-25" alt="">
                     <div class="content_logo">
                         <h6 class="mb-0 fw-bolder">Weather</h6>
                         <span class="fs-10 text-secondary">tagline goes here</span>
                     </div>
                 </div>
-            </a>
-            <button class="navbar-toggler rounded-circle" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-between py-0" id="navbarNav">
+    </a>
+    <button class="navbar-toggler rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav d-flex align-items-center justify-content-between ms-auto">
                     <li class="nav-item ms-3 mb-2">
                         <a class="nav-link py-0  px-4 active" aria-current="page" href="#">Home</a>
@@ -47,20 +46,21 @@
                         <a class="nav-link py-0  px-4" href="contact.html">Contact</a>
                     </li>
                 </ul>
-            </div>
-        </div>
-    </nav>
+    </div>
+  </div>
+</nav>
     <!-- END OF  NAVBAr PART -->
     <!-- START Of SECTION HEADER -->
     <section class="py-5" id="header">
         <div class="search-put py-4" id="search">
             <div class="container">
                 <div class="row">
-                    <div class="form-group position-relative mb-3">
+                    <div class="form-group mb-3">
+                        <div class="position-relative">
                         <input type="text" class="form-control rounded-pill mb-3 py-3 px-3 " id="searchBar"
                             placeholder="Find Your Location">
-                        <button class="btn btn-primary btn-over rounded-pill position-absolute px-5 py-2" type="button"
-                            id="searchBtn">Find</button>
+                        <button class="btn btn-primary btn-find rounded-pill px-5 py-2" type="button"
+                            id="searchBtn">Find</button></div>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@
         <div class="container">
             <div class="content_footer">
                 <div class="row justify-content-between">
-                    <div class="col-md-8">
+                    <div class="col-md-8 col-sm-12">
                         <div class="form-group position-relative d-flex align-items-center mb-3 ">
                             <input type="text" class="form-control rounded-pill mb-3 p-3 " id="searchBar"
                                 placeholder="Find Your Location">
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="socials d-flex">
+                        <div class="socials d-flex" on>
                             <div class="social-icons me-1">
                                 <a href=""><i class=" fa-brands fa-facebook-f"></i></a>
                             </div>
@@ -122,8 +122,8 @@
         </div>
     </footer>
     <!-- END Of SECTION FOOTER -->
-    <script src="Js/index.js"></script>
-    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
